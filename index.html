@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" href="Logo_Alura.svg" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header"> <img src="./Logo_Alura.svg" alt="Logo de Alura" class="logo"></header>
+    
+    <div class="cuerpo">
+        <div class="lado-izq">
+            <textarea id="txtIngresado" placeholder="Ingrese el texto aquí" required ></textarea>
+            <div class="advertencia">
+                <img src="./icono.svg" alt="Icono de advertencia" class="icono">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="encriptar" id="encriptar">Encriptar</button>
+                <button class="desencriptar" id="desencriptar">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="lado-der"> 
+            <div class="cuadro" id="cuadro">
+                <textarea class="resultado" id="resultado"></textarea>
+                <img class="mono" id="mono" src="./Muñeco.svg" alt="Muñeco buscando">
+                <div class="ningun-texto" id="ninguntxt">
+                    <p class="ningun-msg">Ningún mensaje fue encontrado</p>
+                    <p class="texto-pq">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <div class="copy">
+                    <button class="copiar" id="copiar">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><p class="copyright">&copy; Copyright Rodrigo Renteria - 2023</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
