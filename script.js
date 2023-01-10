@@ -7,7 +7,8 @@ var ningunMsg = document.getElementById("ninguntxt")
 var imagen = document.getElementById("mono")
 function copiarTexto(){
     var texto = resultado.innerHTML;
-    navigator.clipboard.writeText(texto)
+    texto = texto.replace(/<br>/g, " ");
+    navigator.clipboard.writeText(texto);
 }
 
 function reemplazarLetras(){
