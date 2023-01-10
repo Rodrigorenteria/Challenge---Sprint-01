@@ -1,4 +1,4 @@
-# Challenge--Sprint-01
+# Challenge - Sprint-01
 Encriptador para alura
-# Utilizalo
+## Utilizalo
 Para hacer uso del encriptador haz click [aquí](https://rodrigorenteria.github.io/Challenge--Sprint-01/)
